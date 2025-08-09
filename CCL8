@@ -1,0 +1,6 @@
+1. sudo su-
+2. apt update
+3. apt install apache2-y
+4.systemctl start apache2
+5.systemctl enable apache2
+6.echo"<h1>hello, welcome</h1>">/var/www/html/index.html
